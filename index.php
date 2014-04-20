@@ -8,6 +8,21 @@
 <link rel="shortcut icon" href="/favicon.ico"> 
 <link rel="apple-touch-icon" href="touch-icon-iphone.png">
 
+<meta property="fb:admins" content="1248100961"/>
+<meta property="fb:app_id" content="274146105984989"/>
+
+<!--
+<meta property="og:url" content="http://ctrla.lt"/>
+<meta property="og:title" content=""/>
+<meta property="og:site_name" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://ctrla.lt/wp-content/uploads/2013/05/Ctrl-Alt-Design-CMYK.jpg"/>
+<meta property="og:locale" content="en_us"/>
+-->
+
+<link rel="author" href="https://plus.google.com/108872575783672944223" title="Robert McElaney on Google+"/>
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
