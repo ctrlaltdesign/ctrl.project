@@ -1,4 +1,10 @@
-/* CSS RESET Eric Myer*/
+/* Outline all elements for troubleshooting
+*{
+	outline:#FF0000 dotted 1px;
+}
+*/
+
+/* RESET */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -8,20 +14,48 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
-html, body{height:100%;width:100%;}
+/*Layout madness*/
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
 
+html, body{
+	height:100%;
+	width:100%;
+}
+
+/* Default Styling */
 body {
-
-background: #111;
-font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-font-weight: 100;
-
-color: #fff;
+	background: #111;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 100;
+	color: #fff;
 }
 
-.dnone{ display:none; }
-
-canvas{background-color:black;
-position:relative;
-left:50%;
+/* Hide that which should not be seen, */
+.dnone{ 
+	display:none; 
 }
+.opzero{
+	opacity:0;
+}
+
+/* Clearfix */
+.cfx:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
