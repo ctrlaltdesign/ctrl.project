@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Ctrl Alt Design Lab</title>
+<title>Ctrl Alt Design Lab</title>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+<link rel="shortcut icon" href="/favicon.ico"> 
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
